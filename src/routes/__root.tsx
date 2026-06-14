@@ -92,6 +92,12 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "Aurea — Neural Intelligence for Creative Teams" },
+      { name: "description", content: "A sophisticated dark-mode interface for AI and creative tools, featuring neural network visuals and glassmorphism." },
+      { property: "og:description", content: "A sophisticated dark-mode interface for AI and creative tools, featuring neural network visuals and glassmorphism." },
+      { name: "twitter:description", content: "A sophisticated dark-mode interface for AI and creative tools, featuring neural network visuals and glassmorphism." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/f084f252-d7d5-4f6e-8c9c-031474e8166c/id-preview-38082181--d4483d95-889f-4926-803e-417a2309465e.lovable.app-1781037616069.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/f084f252-d7d5-4f6e-8c9c-031474e8166c/id-preview-38082181--d4483d95-889f-4926-803e-417a2309465e.lovable.app-1781037616069.png" },
     ],
     links: [
       { rel: "preconnect", href: "https://fonts.googleapis.com" },
